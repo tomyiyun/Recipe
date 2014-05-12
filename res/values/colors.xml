@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common Color -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="alpha">#00000000</color>
+    <color name="wifi_blue">#4d7982</color>
+    <color name="main_backgroud">#e13d3d</color>
+    <color name="tile_dimmer">#6000</color>
+    <!-- Toast Color -->
+    <color name="alert">#CCCC0000</color>
+    <color name="confirm">#CCFF8800</color>
+    <color name="info">#CC3A8FB7</color>
+
+    <!-- BackGround Color -->
+    <color name="bg_color_light">#e5e5e5</color>
+    <color name="bg_color_dark">#101010</color>
+    <color name="bg_color_transparent_dark">#ff000000</color>
+    <color name="bg_color_transparent_light">#ffffffff</color>
+    <color name="bg_color_drawer_dark">#1a1a1a</color>
+    <color name="bg_color_drawer_transparent_dark">#c01a1a1a</color>
+
+    <!-- MY Define Color -->
+    <color name="holo_blue">#FF33B5E5</color>
+    <color name="accent_white">#ffffff</color>
+    <color name="accent_white_translucent">#66ffffff</color>
+    <color name="bg_droppopmenu_light">#C0C0C0</color>
+    <color name="bg_droppopmenu_dark">#555555</color>
+    <color name="card_bg_color_light">#f8f8f8</color>
+    <color name="card_bg_color_dark">#1a1a1a</color>
+    <color name="shadow_start">#80000000</color>
+    <color name="shadow_end">#00000000</color>
+    <color name="stroke">#dddddd</color>
+
+</resources>

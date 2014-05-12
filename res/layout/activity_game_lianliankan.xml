@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_backgroud" >
+
+    <RelativeLayout
+        android:id="@+id/activity_game_lianliankan_header"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/activity_game_lianliankan_time_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="游戏时间："
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/activity_game_lianliankan_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/activity_game_lianliankan_time_lable"
+            android:layout_alignBottom="@+id/activity_game_lianliankan_time_lable"
+            android:layout_toRightOf="@+id/activity_game_lianliankan_time_lable"
+            android:text="00分00秒"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/activity_game_lianliankan_remind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/activity_game_lianliankan_restart"
+            android:background="@drawable/list_selector_holoblue_alpha"
+            android:text="提示"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/activity_game_lianliankan_restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/list_selector_holoblue_alpha"
+            android:text="重新开始"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_game_lianliankan_main_layout"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/activity_game_lianliankan_header"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white" >
+
+        <com.liuhanyu.recipe.ui.lianliankan.game.GameView
+            android:id="@+id/activity_game_lianliankan_gameview"
+            android:layout_width="320dp"
+            android:layout_height="320dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:text="@string/remind_tip_lite"
+        android:textColor="@color/main_backgroud" />
+
+</RelativeLayout>
