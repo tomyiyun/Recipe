@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">recipe</string>
+    <string name="app_name">菜式推广</string>
     <string name="remind_tip">海底捞火锅 武汉凯德广场店 1625号顾客 下午好 \n你之前还有42桌 6—8人台\n预计20:30到号（仅供参考）</string>
 <string name="remind_tip_lite">1625号顾客 下午好 \n你之前还有42桌 6—8人台\n预计20:30到号（仅供参考）</string>
 </resources>

@@ -407,7 +407,7 @@ public class PinTuActivity extends Activity implements OnClickListener,
 		parent.removeView(blankTileCell);
 		countDownCell.setTextColor(getResources().getColor(R.color.black));
 		parent.addView(countDownCell);
-		previewTimer = new CountDownTimer(30000, 500) {
+		previewTimer = new CountDownTimer(5000, 500) {
 			@Override
 			public void onTick(long millisUntilFinished) {
 				int secondsRemaining = Math
