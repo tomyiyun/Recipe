@@ -22,8 +22,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.liuhanyu.recipe.R;
+import com.liuhanyu.recipe.ui.AcitivityWithHelpMenu;
 
-public class ZhaoChaActivity extends Activity {
+public class ZhaoChaActivity extends AcitivityWithHelpMenu {
 	private static final int TIME_MSG = 0x001;
 	private RelativeLayout main_layout;
 	private TextView timeTxt;
@@ -232,5 +233,11 @@ public class ZhaoChaActivity extends Activity {
 		}
 
 	};
+
+	@Override
+	public int getHelpStingId() {
+		// TODO Auto-generated method stub
+		return R.string.zhaocha_help;
+	}
 
 }

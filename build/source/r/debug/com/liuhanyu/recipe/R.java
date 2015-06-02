@@ -52,7 +52,6 @@ public final class R {
         public static final int zhaocha=0x7f020007;
     }
     public static final class id {
-        public static final int action_settings=0x7f09001f;
         public static final int activity_game_lianliankan_gameview=0x7f090006;
         public static final int activity_game_lianliankan_header=0x7f090000;
         public static final int activity_game_lianliankan_main_layout=0x7f090005;
@@ -78,6 +77,7 @@ public final class R {
         public static final int activity_game_zhaocha_time=0x7f090014;
         public static final int activity_game_zhaocha_time_lable=0x7f090013;
         public static final int container=0x7f090018;
+        public static final int game_help=0x7f09001f;
         public static final int main_game_2048=0x7f09001e;
         public static final int main_game_button_layout=0x7f09001a;
         public static final int main_game_lianliankan=0x7f09001b;
@@ -93,12 +93,16 @@ public final class R {
         public static final int activity_main=0x7f030004;
     }
     public static final class menu {
-        public static final int main=0x7f080000;
+        public static final int game_menu=0x7f080000;
     }
     public static final class string {
         public static final int app_name=0x7f060000;
-        public static final int remind_tip=0x7f060001;
-        public static final int remind_tip_lite=0x7f060002;
+        public static final int lianliankan_help=0x7f060001;
+        public static final int number_help=0x7f060002;
+        public static final int pintu_help=0x7f060003;
+        public static final int remind_tip=0x7f060004;
+        public static final int remind_tip_lite=0x7f060005;
+        public static final int zhaocha_help=0x7f060006;
     }
     public static final class style {
         /** 

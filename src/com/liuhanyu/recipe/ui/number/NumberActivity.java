@@ -11,8 +11,9 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.liuhanyu.recipe.R;
+import com.liuhanyu.recipe.ui.AcitivityWithHelpMenu;
 
-public class NumberActivity extends Activity {
+public class NumberActivity extends AcitivityWithHelpMenu {
 	private TextView timeTv,scoreTv;
 	private GameView gameview;
 	private Button restartBtn;
@@ -29,6 +30,12 @@ public class NumberActivity extends Activity {
 		gameview.setTimeTv(timeTv);
 		gameview.setRestartBtn(restartBtn);
 		
+	}
+
+	@Override
+	public int getHelpStingId() {
+		// TODO Auto-generated method stub
+		return R.string.number_help;
 	}
 
 }

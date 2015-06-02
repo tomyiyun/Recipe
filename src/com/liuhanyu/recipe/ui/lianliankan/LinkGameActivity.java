@@ -1,22 +1,20 @@
 package com.liuhanyu.recipe.ui.lianliankan;
 
-import android.app.Activity;
 import android.os.Bundle;
-import android.text.TextUtils;
-import android.view.Display;
 import android.widget.Button;
 import android.widget.TextView;
 
 import com.liuhanyu.recipe.R;
 import com.liuhanyu.recipe.support.DisplayUtils;
+import com.liuhanyu.recipe.ui.AcitivityWithHelpMenu;
 import com.liuhanyu.recipe.ui.lianliankan.game.Config;
 import com.liuhanyu.recipe.ui.lianliankan.game.GameView;
 import com.liuhanyu.recipe.ui.lianliankan.reader.InnerGameReader;
 
-public class LinkGameActivity extends Activity {
+public class LinkGameActivity extends AcitivityWithHelpMenu {
 
 	private GameView gameView;
-
+	
 	@Override
 	public void onBackPressed() {
 		// TODO Auto-generated method stub
@@ -45,4 +43,9 @@ public class LinkGameActivity extends Activity {
 		gameView.restartGame();
 	}
 
+	@Override
+	public int getHelpStingId() {
+		// TODO Auto-generated method stub
+		return R.string.lianliankan_help;
+	}
 }

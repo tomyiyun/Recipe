@@ -51,6 +51,7 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.liuhanyu.recipe.R;
+import com.liuhanyu.recipe.ui.AcitivityWithHelpMenu;
 import com.liuhanyu.recipe.ui.pintu.game.Board;
 import com.liuhanyu.recipe.ui.pintu.game.Game;
 import com.liuhanyu.recipe.ui.pintu.game.Game.Level;
@@ -62,7 +63,7 @@ import com.liuhanyu.recipe.ui.pintu.game.Tile;
 /**
  * User's interface to the puzzle.
  */
-public class PinTuActivity extends Activity implements OnClickListener,
+public class PinTuActivity extends AcitivityWithHelpMenu implements OnClickListener,
 		OnLongClickListener, MoveListener {
 	private static final int TIME_MSG = 0x001;
 	private Game game;
@@ -592,5 +593,10 @@ public class PinTuActivity extends Activity implements OnClickListener,
 			game.resetSelectedImage();
 			Log.e(getClass().getName(), failure.getMessage(), failure);
 		}
+	}
+
+	@Override
+	public int getHelpStingId() {
+		return R.string.pintu_help;
 	}
 }
